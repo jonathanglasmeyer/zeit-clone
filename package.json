@@ -17,9 +17,7 @@
     "babel-plugin-styled-components": "^1.1.7",
     "eslint": "3.19.0",
     "eslint-config-mesaic": "mesaic/eslint-config-mesaic.git#master",
-    "eslint_d": "^5.0.0",
-    "now": "^7.2.4",
-    "rimraf": "^2.6.1"
+    "eslint_d": "^5.0.0"
   },
   "scripts": {
     "dev": "next",
