@@ -23,8 +23,7 @@
   },
   "scripts": {
     "dev": "next",
-    "build": "next build && next export -o zeit-de",
-    "deploy": " now rm -y zeit-de; cd zeit-de && now --public && cd .. && now alias",
+    "build": "next build && next export",
     "start": "next start"
   },
   "keywords": [],
