@@ -1,10 +1,16 @@
+import Head from 'next/head'
+import Link from 'next/link'
+import Page from '../components/Page'
 import styled from 'styled-components'
 
 const Title = styled.h1`
-  color: red;
-  font-size: 20px;
+  color: blue;
+  font-size: 50px;
 `
-// pages/about.js
-export default () => (
-  <Title>Welcome to About!</Title>
-)
+
+export default () =>
+  <Page title="About">
+    <div>
+      About
+    </div>
+  </Page>

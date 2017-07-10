@@ -10,6 +10,7 @@ export default class MyDocument extends Document {
       <html>
         <Head>
           <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+          <link rel='shortcut icon' type='image/x-icon' href='/static/favicon.ico' />
           {styleTags}
         </Head>
         <body>
