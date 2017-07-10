@@ -1,0 +1,32 @@
+{
+  "name": "zeit-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "next": "^3.0.1-beta.13",
+    "preact": "^8.1.0",
+    "preact-compat": "^3.16.0",
+    "prettier": "^1.5.2",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "styled-components": "^2.1.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^7.2.3",
+    "babel-plugin-styled-components": "^1.1.7",
+    "eslint": "3.19.0",
+    "eslint-config-mesaic": "mesaic/eslint-config-mesaic.git#master",
+    "eslint_d": "^5.0.0",
+    "now": "^7.2.4",
+    "rimraf": "^2.6.1"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export -o zeit-de",
+    "deploy": " now rm -y zeit-de; cd zeit-de && now --public && cd .. && now alias",
+    "start": "next start"
+  },
+  "keywords": [],
+  "license": "MIT"
+}

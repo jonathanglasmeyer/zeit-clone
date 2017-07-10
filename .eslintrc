@@ -1,0 +1,6 @@
+{
+  "extends": "./node_modules/eslint-config-mesaic/prototyping.js",
+  "rules": {
+    "react/react-in-jsx-scope": 0,
+  }
+}
